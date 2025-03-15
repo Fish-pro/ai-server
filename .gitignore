@@ -1,0 +1,16 @@
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+.idea/
+.vscode/
+
+node_modules/
+_book/
+.DS_Store
+charts/charts/*.tgz
+

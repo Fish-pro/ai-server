@@ -1,0 +1,7 @@
+syntax = "proto3";
+package gift.io.api.types;
+
+message files {
+  string name = 1;
+  string url = 2;
+}

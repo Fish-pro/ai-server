@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+// The files service definition.
+service Files {
+  // Sends a greeting
+  rpc Get (GetRequest) returns (GetReply) {}
+}
+
+// The request message containing the user's name.
+message GetRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings
+message GetReply {
+  string message = 1;
+}
